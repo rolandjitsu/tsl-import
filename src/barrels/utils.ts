@@ -1,5 +1,5 @@
 export function doSomeRolls(p: Params) {
-    console.log(`Rolling for ${p.revs} revs`);
+    return `Rolling for ${p.revs} revs`;
 }
 
 export interface Params {

@@ -4,6 +4,8 @@
         "module": "esnext",
         "moduleResolution": "node",
         "target": "es5",
+        "jsx": "react",
+        "rootDir": "src",
         "sourceMap": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
@@ -17,5 +19,10 @@
             "es6",
             "dom"
         ]
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "src/setupTests.ts"
+    ]
 }
